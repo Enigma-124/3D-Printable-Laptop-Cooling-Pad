@@ -52,6 +52,7 @@ So I had no idea that I had to both write devlogs and lapse. I thought it was on
 
 # 2026-09-11 to 2026-09-12
  I worked on the code for the RP2040. The imports in the code kept throwing errors even after reinstalling CMake and all the C compilers. The errors were fixed when I opened the folder separately and reran the build instead of opening the parent folder in VS Code. Also completed the Journal.md. I didn't know that I had to create a journal.md until submission which is why it has less detail and few images.
+ ![image](./Assets/Journal%20Images/image.png)
 
  **Total time spent: 2 hours**
 

@@ -8,9 +8,9 @@ created_at: "2026-09-12"
 So I had no idea that I had to both write devlogs and lapse. I thought it was one or the other, so here is a condensed form of the devlogs. 
 
 # 2026-08-18 to 2026-08-19
- I was building the voltage protection circuit, which would allow the fans to receive a stable current at 12v and prevent reverse polarity. For this I used a zener diode and a Fuse. Then for safely powering the RP2040 chip and oled I created a step down convertor cicuit for 12v to 3.3v.
- ![image](./Journal%20Images/Day1.1.png)
- ![image](./Journal%20Images/Day1.2.png)
+ I was building the voltage protection circuit, which would allow the fans to receive a stable current at 12v with overvoltage protection and prevent reverse polarity. For this I used a zener diode and a Fuse. The circuit used can be found [here](https://circuitdigest.com/electronic-circuits/overvoltage-protection-circuit). Then for safely powering the RP2040 chip and oled I created a step buck down convertor cicuit for 12v to 3.3v using TPS62162DSG.
+ ![image](./Assets/Journal%20Images/Day1.1.png)
+ ![image](./Assets/Journal%20Images/Day1.2.png)
 
 
  **Total time spent: 1.5 hours**
@@ -19,14 +19,16 @@ So I had no idea that I had to both write devlogs and lapse. I thought it was on
  I focused on creating the circuit for the RP2040 microcontroller and connected the required pins to the 4-pin headers for the fans and the OLED screen. At first I accidently added the oled and buttons directly into schematic instead of adding the headers. I also connected the 3 2-pin headers for connecting various buttons. A separate USB-C port was added, which would receive CPU temperatures from the laptop. Then I also changed the barrel connector for power to a usb c port. I also worked on the pwm signals to make sure that they would work for the fans, I used a mofset with source set to gorund for this.
  
  ![image](./Assets/Schematic.png)
- ![image](./Journal%20Images/Day2.1.png)
- ![image](./Journal%20Images/Day2.2.png)
+ ![image](./Assets/Journal%20Images/Day2.1.png)
+ ![image](./Assets/Journal%20Images/Day2.2.png)
 
  **Total time spent: 2 hours**
 
 # 2026-08-23 to 2026-08-26
- I worked on assigning the various footprints and placing components in the PCB editor. This tookk a lot of time as I had to decide the exact components while keeping the price down. Their avalibilty in India was also a problem. Here KaiPereira's guide was very useful in deciding footprints of various components.
+ Today I worked on assigning the various footprints and placing components in the PCB editor. This required a lot of research to find the exact component that would best fit the criteria and was also available here. The components had to placed in such a manner as to reduce the amount of space required while also keeping enough space in between for routing the traces. This took a lot of time and I had to redo it once because Kicad crashed on me and my work wasn't saved. Here KaiPereira's guide was very useful in deciding footprints of various components and for placement of various components.
 
+ ![image](./Assets/Journal%20Images/Day3.1.png)
+ ![image](./Assets/Journal%20Images/Day3.2.png)
  **Total time spent: 4 hours**
 
 # 2026-08-26 to 2026-08-27

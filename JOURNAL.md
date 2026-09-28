@@ -11,7 +11,7 @@ So I had no idea that I had to both write devlogs and lapse. I thought it was on
  I was building the voltage protection circuit, which would allow the fans to receive a stable current at 12v with overvoltage protection and prevent reverse polarity. For this I used a zener diode and a Fuse. The circuit used can be found [here](https://circuitdigest.com/electronic-circuits/overvoltage-protection-circuit). Then for safely powering the RP2040 chip and oled I created a step buck down convertor cicuit for 12v to 3.3v using TPS62162DSG.
  ![image](./Assets/Journal%20Images/Day1.1.png)
  ![image](./Assets/Journal%20Images/Day1.2.png)
-
+ ![image](./Assets/Journal%20Images/Day1.3.png)
 
  **Total time spent: 1.5 hours**
 
@@ -29,6 +29,7 @@ So I had no idea that I had to both write devlogs and lapse. I thought it was on
 
  ![image](./Assets/Journal%20Images/Day3.1.png)
  ![image](./Assets/Journal%20Images/Day3.2.png)
+ ![image](./Assets/Journal%20Images/Day3.3.png)
  **Total time spent: 4 hours**
 
 # 2026-08-26 to 2026-08-27
@@ -36,6 +37,7 @@ So I had no idea that I had to both write devlogs and lapse. I thought it was on
 
 ![image](./Assets/PCB.png)
 ![image](./Assets/3D-PCB.png)
+![image](./Assets/Journal%20Images/Day4.1.png)
 
  **Total time spent: 1.5 hours**
 

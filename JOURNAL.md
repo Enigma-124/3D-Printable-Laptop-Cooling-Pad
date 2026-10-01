@@ -54,5 +54,24 @@ So I had no idea that I had to both write devlogs and lapse. I thought it was on
  I worked on the code for the RP2040. The imports in the code kept throwing errors even after reinstalling CMake and all the C compilers. The errors were fixed when I opened the folder separately and reran the build instead of opening the parent folder in VS Code. Also completed the Journal.md. I didn't know that I had to create a journal.md until submission which is why it has less detail and few images.
  ![image](./Assets/Journal%20Images/image.png)
 
+Lapse Links:
+https://lapse.hackclub.com/timelapse/X8WnYXYB8hOf
+https://lapse.hackclub.com/timelapse/XAUpE_7vQV7K
+https://lapse.hackclub.com/timelapse/_s1kYaglIDFs
+https://lapse.hackclub.com/timelapse/p1gNmqsvEsqF
+https://lapse.hackclub.com/timelapse/HqhyyTd7N_Rm
+https://lapse.hackclub.com/timelapse/iVrlwJZ8b8de
+https://lapse.hackclub.com/timelapse/inkQ6GUXbBT_
+https://lapse.hackclub.com/timelapse/nn88JlwNwpd7
+https://lapse.hackclub.com/timelapse/kjDx_4C6q_NG
+https://lapse.hackclub.com/timelapse/O5PsoE4yXPM5
+https://lapse.hackclub.com/timelapse/LCT2zhc3__v9
+https://lapse.hackclub.com/timelapse/-BpnBDAG_8Td
+https://lapse.hackclub.com/timelapse/Tel2IqWKVw8o
+https://lapse.hackclub.com/timelapse/1DE9453hYrio
+https://lapse.hackclub.com/timelapse/Irt6cRtAdCu3
+https://lapse.hackclub.com/timelapse/qC81KXo_HgHI
+https://lapse.hackclub.com/timelapse/JuN2IqyEEBJ9
+
  **Total time spent: 2 hours**
 
